@@ -1,0 +1,123 @@
+@import 'common/variables';
+@import '_libs/jeet/index';
+@import 'common/mixins';
+@import 'common/fonts';
+@import 'common/base';
+@import 'blocks/**/*';
+//@import 'common/sprite-img';
+
+/* .retina-sprite-block{
+  @include retina-sprite($abiatec-group);
+} */
+
+$jeet: ( gutter:0,
+max-width: 1280px,
+layout-direction: LTR,
+parent-first: false);
+//@include debug(gray, false);
+.container {
+    @include center(1280px);
+}
+
+.title {
+    color: #424242;
+}
+
+
+.filters {
+    background-color: $filtersBg;
+    background-color: var(--filters-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 95px;
+    &__button {
+        width: 100%;
+        max-width: 205px;
+        height: 52px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+.filter-list {
+    @extend ._list-reset;
+    display: flex;
+    align-items: center;
+    &__item {
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+}
+
+.btn {
+    @include subFont();
+    background-color: $btnBg;
+    background-color: var(--btn-bg);
+    border-radius: 3px;
+    border: none;
+    color: $btnColor;
+    color: var(--btn-color);
+    @include rem(14);
+}
+
+
+.sorting {
+    display: flex;
+    align-items: center;
+    &__title {
+        @include subFont();
+        @include rem(20);
+    }
+}
+
+
+
+.color-list {
+    display: flex;
+    align-items: center;
+    @extend ._list-reset;
+    &__item {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
+}
+
+.item {
+    &__top,
+    &__bottom {
+        display: flex;
+        align-items: center;
+    }
+    &__size {
+        width: 50%;
+    }
+    &__color {
+        width: 50%;
+        display: flex;
+        justify-content:flex-end;
+    }
+    &__name {
+        width: 50%;
+        @include subFont();
+        @include rem(18);
+        color: $itemTitleColor;
+        color: var(--item-title-color);
+    }
+    &__price {
+        width: 50%;
+        text-align: right;
+        @include rem(22);
+        @include subFont();
+        &:after{
+            content:'€';
+            @include mainFont();
+            font-family: 'MyriadProRegular';
+        }
+    }
+}

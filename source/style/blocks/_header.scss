@@ -1,0 +1,8 @@
+.header{
+	background-color: $headerBg;
+	background-color:var(--header-bg);
+    &__logo{
+        text-align: center;
+        padding:25px 0;
+    }
+}

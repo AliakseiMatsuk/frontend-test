@@ -1,0 +1,9 @@
+mixin filters(filters)
+	ul.filter-list
+		each item in filters
+			li.filter-list__item
+				label.custom-check(for=`${item.name}${item.id}`)
+					input.custom-check__checkbox.check-B(type='checkbox', name='filters', id=`${item.name}${item.id}`)
+					span.custom-check__checkbox.check-B__background(data-ripple='false')
+					span.custom-check__checkbox.check-B__checkbox
+					span.custom-check__text #{item.name}

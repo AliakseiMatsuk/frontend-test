@@ -1,0 +1,167 @@
+{
+    "Giacket": [
+    {
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
+        "pic": "giacket.png",
+        "price": "60,00",
+        "title": "Giacket",
+        "link": "Giacket"
+    }],
+    "trekkingshoes": [
+    {
+        "pic": "trekkingshoes.png",
+        "price": "80,00",
+        "title": "trekking shoes",
+        "link": "link"
+    }],
+    "T-shirt-woman": [
+    {
+
+        "colors":
+        {
+            "#d3a7ac": "#d3a7ac",
+            "#ffffff": "#ffffff"
+        },
+        "pic": "tshirt-woman.png",
+        "price": "20,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Giacket1": [
+    {
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
+        "pic": "giacket.png",
+        "price": "60,00",
+        "title": "Giacket",
+        "link": "Giacket"
+    }],
+    "trekkingshoes1": [
+    {
+        "pic": "trekkingshoes.png",
+        "price": "80,00",
+        "title": "trekking shoes",
+        "link": "link"
+    }],
+    "T-shirt-woman1": [
+    {
+
+        "colors":
+        {
+            "#d3a7ac": "#d3a7ac",
+            "#ffffff": "#ffffff"
+        },
+        "pic": "tshirt-woman.png",
+        "price": "20,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Giacket2": [
+    {
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
+        "pic": "giacket.png",
+        "price": "60,00",
+        "title": "Giacket",
+        "link": "Giacket"
+    }],
+    "trekkingshoes2": [
+    {
+        "pic": "trekkingshoes.png",
+        "price": "80,00",
+        "title": "trekking shoes",
+        "link": "link"
+    }],
+    "T-shirt-woman2": [
+    {
+
+        "colors":
+        {
+            "#d3a7ac": "#d3a7ac",
+            "#ffffff": "#ffffff"
+        },
+        "pic": "tshirt-woman.png",
+        "price": "20,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Giacket3": [
+    {
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
+        "pic": "giacket.png",
+        "price": "60,00",
+        "title": "Giacket",
+        "link": "Giacket"
+    }],
+    "trekkingshoes3": [
+    {
+        "pic": "trekkingshoes.png",
+        "price": "80,00",
+        "title": "trekking shoes",
+        "link": "link"
+    }],
+    "T-shirt-woman3": [
+    {
+
+        "colors":
+        {
+            "#d3a7ac": "#d3a7ac",
+            "#ffffff": "#ffffff"
+        },
+        "pic": "tshirt-woman.png",
+        "price": "20,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Giacket4": [
+    {
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
+        "pic": "giacket.png",
+        "price": "60,00",
+        "title": "Giacket",
+        "link": "Giacket"
+    }],
+    "trekkingshoes4": [
+    {
+        "pic": "trekkingshoes.png",
+        "price": "80,00",
+        "title": "trekking shoes",
+        "link": "link"
+    }],
+    "T-shirt-woman4": [
+    {
+
+        "colors":
+        {
+            "#d3a7ac": "#d3a7ac",
+            "#ffffff": "#ffffff"
+        },
+        "pic": "tshirt-woman.png",
+        "price": "20,00",
+        "title": "T-shirt",
+        "link": "link"
+    }]
+}

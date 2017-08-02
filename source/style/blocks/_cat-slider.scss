@@ -1,0 +1,30 @@
+.cat-slider {
+    &__title {
+        @include subFont();
+        @include rem(20);
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        padding: 45px 0 45px;
+        &_left {
+            &:after {
+                content: '';
+                display: inline-block;
+                background-color: #cccccc;
+                height: 2px;
+                width: 100%;
+                margin-left: 50px;
+            }
+        }
+        &_right {
+            &:before {
+                content: '';
+                display: inline-block;
+                background-color: #cccccc;
+                height: 2px;
+                width: 100%;
+                margin-right: 8px;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+
+
+
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('../fonts/quicksand-Bold.woff') format('woff'),
+         url('../fonts/quicksand-Bold.ttf') format('truetype');
+    font-style: normal;
+
+}
+
+@mixin mainFont {
+    font-family: $mainFont, sans-serif;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+@mixin subFont {
+    font-family: $subFont, sans-serif;
+    font-family: var(--sub-font);
+    font-weight: 700;
+}

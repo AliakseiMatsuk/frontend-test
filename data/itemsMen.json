@@ -1,0 +1,170 @@
+{
+    "T-shirt": [
+    {
+        "size":
+        {
+            "m": "M",
+            "l": "L",
+            "xl": "XL",
+            "xxl": "XXl"
+        },
+        "colors":
+        {
+            "#165eb9": "#165eb9",
+            "#ffe637": "#ffe637",
+            "#535253": "#535253"
+        },
+        "pic": "tshirt.png",
+        "price": "5,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Pants-FORCLAZ": [
+
+        {
+            "size":
+            {
+                "m": "M",
+                "l": "L"
+            },
+            "pic": "pants.png",
+            "price": "30,00",
+            "title": "Pants FORCLAZ",
+            "link": "link"
+        }
+    ],
+    "backpack": [
+    {
+        "pic": "backpack.png",
+        "price": "60,00",
+        "title": "backpack",
+        "link": "link",
+        "option": "10litri"
+    }],
+    "T-shirt1": [
+    {
+        "size":
+        {
+            "m": "M",
+            "l": "L",
+            "xl": "XL",
+            "xxl": "XXl"
+        },
+        "colors":
+        {
+            "#165eb9": "#165eb9",
+            "#ffe637": "#ffe637",
+            "#535253": "#535253"
+        },
+        "pic": "tshirt.png",
+        "price": "5,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Pants-FORCLAZ1": [
+
+        {
+            "size":
+            {
+                "m": "M",
+                "l": "L"
+            },
+            "pic": "pants.png",
+            "price": "30,00",
+            "title": "Pants FORCLAZ",
+            "link": "link"
+        }
+    ],
+    "backpack1": [
+    {
+        "pic": "backpack.png",
+        "price": "60,00",
+        "title": "backpack",
+        "link": "link",
+        "option": "10litri"
+    }],
+    "T-shirt2": [
+    {
+        "size":
+        {
+            "m": "M",
+            "l": "L",
+            "xl": "XL",
+            "xxl": "XXl"
+        },
+        "colors":
+        {
+            "#165eb9": "#165eb9",
+            "#ffe637": "#ffe637",
+            "#535253": "#535253"
+        },
+        "pic": "tshirt.png",
+        "price": "5,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Pants-FORCLAZ2": [
+
+        {
+            "size":
+            {
+                "m": "M",
+                "l": "L"
+            },
+            "pic": "pants.png",
+            "price": "30,00",
+            "title": "Pants FORCLAZ",
+            "link": "link"
+        }
+    ],
+    "backpack2": [
+    {
+        "pic": "backpack.png",
+        "price": "60,00",
+        "title": "backpack",
+        "link": "link",
+        "option": "10litri"
+    }],
+    "T-shirt3": [
+    {
+        "size":
+        {
+            "m": "M",
+            "l": "L",
+            "xl": "XL",
+            "xxl": "XXl"
+        },
+        "colors":
+        {
+            "#165eb9": "#165eb9",
+            "#ffe637": "#ffe637",
+            "#535253": "#535253"
+        },
+        "pic": "tshirt.png",
+        "price": "5,00",
+        "title": "T-shirt",
+        "link": "link"
+    }],
+    "Pants-FORCLAZ3": [
+
+        {
+            "size":
+            {
+                "m": "M",
+                "l": "L"
+            },
+            "pic": "pants.png",
+            "price": "30,00",
+            "title": "Pants FORCLAZ",
+            "link": "link"
+        }
+    ],
+    "backpack3": [
+    {
+        "pic": "backpack.png",
+        "price": "60,00",
+        "title": "backpack",
+        "link": "link",
+        "option": "10litri"
+    }]
+}

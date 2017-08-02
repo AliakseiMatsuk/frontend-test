@@ -1,0 +1,28 @@
+extends ../_template
+
+block variables
+	- var title = ['index page title','index page description','index page keywords']
+
+block content
+	.container
+		include ../blocks/_header
+		.filters
+			.filters__list
+				+filters(filters)
+			button.btn.btn_color.filters__button see all products
+		.sorting
+			.sorting__title.title Sort by
+			.sorting__list
+				select.select
+					option.select__item lorem
+					option.select__item lorem1
+		.cat-slider
+			.cat-slider__title.cat-slider__title_left.title men
+			.cat-slider__slider
+				.slider
+					+item(itemsMen)
+		.cat-slider
+			.cat-slider__title.cat-slider__title_right.title women
+			.cat-slider__slider
+				.slider
+					+item(itemsWomen)

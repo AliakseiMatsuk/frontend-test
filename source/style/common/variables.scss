@@ -1,0 +1,25 @@
+$mainFont:'MyriadProRegular';
+$subFont:'QuicksandBold';
+
+
+ $headerBg:#fff;
+
+ $filtersBg:#f5f6f7;
+
+$btnBg:#aa9b77;
+$btnColor:#ffffff;
+
+$itemTitleColor:#aa9b77;
+:root {
+    --main-font:$mainFont;
+    --sub-font:$subFont;
+
+    --header-bg: $headerBg;
+    --filters-bg:$filtersBg;
+
+
+    --btn-bg:$btnBg;
+    --btn-color:$btnColor;
+
+    --item-title-color:$itemTitleColor;
+}

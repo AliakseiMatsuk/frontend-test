@@ -1,0 +1,62 @@
+input[type="checkbox"],
+input[type="radio"] {
+    opacity: 0;
+    outline: none;
+    touch-action: none
+}
+
+label {
+    touch-action: none
+}
+
+.custom-check {
+    display: inline-block;
+    position: relative;
+    &__checkbox {
+        display: block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    &__text {
+        @include rem(18);
+        @include subFont();
+        color:  #333333;
+        cursor: pointer;
+        display: block;
+        top: 0;
+        left: 0;
+        padding-left: 45px;
+    }
+}
+
+.check-B {
+    $_this: &;
+    &__background{
+        background-color:#fff;
+        border: solid 2px #ccc;
+    }
+    &__checkbox {
+        box-shadow: none;
+    }
+    &:checked+#{$_this}__background {
+        background-color: #fff;
+        border: solid 2px #aa9b77;
+        box-shadow: none;
+    }
+    &:checked+#{$_this}__background+#{$_this}__checkbox {
+        top: 6px;
+        left: 6px;
+        width: 13px;
+        height: 8px;
+        transform: rotate(-45deg);
+        border:3px solid #aa9b77;
+        box-shadow: none;
+        border-top: none;
+        border-right: none;
+        border-radius: 0;
+    }
+}
+
