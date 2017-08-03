@@ -7,8 +7,8 @@ module.exports = function() {
                 retinaSrcFilter: [$.config.source.spriteImgRetina],
                 imgName: 'sprite-img.png',
                 retinaImgName: 'sprite-img@2x.png',
-                imgPath: '../img/sprite-img.png',
-                retinaImgPath: '../img/sprite-img@2x.png',
+                imgPath: '../images/sprite-img.png',
+                retinaImgPath: '../images/sprite-img@2x.png',
                 cssName: 'sprite-img.scss',
                 padding: 5
             }));

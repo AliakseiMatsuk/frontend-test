@@ -14,6 +14,12 @@
     }],
     "trekkingshoes": [
     {
+        "size":
+        {
+            "36": "36",
+            "37": "37",
+            "38": "38"
+        },
         "pic": "trekkingshoes.png",
         "price": "80,00",
         "title": "trekking shoes",
@@ -21,7 +27,12 @@
     }],
     "T-shirt-woman": [
     {
-
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
         "colors":
         {
             "#d3a7ac": "#d3a7ac",
@@ -47,6 +58,12 @@
     }],
     "trekkingshoes1": [
     {
+        "size":
+        {
+            "36": "36",
+            "37": "37",
+            "38": "38"
+        },
         "pic": "trekkingshoes.png",
         "price": "80,00",
         "title": "trekking shoes",
@@ -54,7 +71,12 @@
     }],
     "T-shirt-woman1": [
     {
-
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
         "colors":
         {
             "#d3a7ac": "#d3a7ac",
@@ -80,6 +102,12 @@
     }],
     "trekkingshoes2": [
     {
+        "size":
+        {
+            "36": "36",
+            "37": "37",
+            "38": "38"
+        },
         "pic": "trekkingshoes.png",
         "price": "80,00",
         "title": "trekking shoes",
@@ -87,7 +115,12 @@
     }],
     "T-shirt-woman2": [
     {
-
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
         "colors":
         {
             "#d3a7ac": "#d3a7ac",
@@ -113,6 +146,12 @@
     }],
     "trekkingshoes3": [
     {
+        "size":
+        {
+            "36": "36",
+            "37": "37",
+            "38": "38"
+        },
         "pic": "trekkingshoes.png",
         "price": "80,00",
         "title": "trekking shoes",
@@ -120,7 +159,12 @@
     }],
     "T-shirt-woman3": [
     {
-
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
         "colors":
         {
             "#d3a7ac": "#d3a7ac",
@@ -146,6 +190,12 @@
     }],
     "trekkingshoes4": [
     {
+        "size":
+        {
+            "36": "36",
+            "37": "37",
+            "38": "38"
+        },
         "pic": "trekkingshoes.png",
         "price": "80,00",
         "title": "trekking shoes",
@@ -153,7 +203,12 @@
     }],
     "T-shirt-woman4": [
     {
-
+        "size":
+        {
+            "s": "S",
+            "l": "L",
+            "xl": "XL"
+        },
         "colors":
         {
             "#d3a7ac": "#d3a7ac",

@@ -2,23 +2,24 @@ mixin item(list)
 	each obj in list
 		each item in obj
 			.item
-					a(href=`${item.link}`)
-					.item__top
-						.item__size
-							if item.size
-								.item__select
-									select.select
+				.item__top
+					.item__size
+						if item.size
+							.item__select
+								select.select
+									option.select__item(value disabled selected) size
 										each option in item.size
 											option.select__item #{option}
-							else if item.option
-								.item__option #{item.option}
-						.item__color
-							if item.colors
-								ul.color-list
-									each color in item.colors
-										li(style={'background-color': `${color}`}).color-list__item
+						else if item.option
+							.item__option #{item.option}
+					.item__color
+						if item.colors
+							ul.color-list
+								each color in item.colors
+									li(style={'background-color': `${color}`}).color-list__item
+				a.item__link(href=`${item.link}`)
 					.item__pic
 						img(src=`${ares}/images/${item.pic}`, alt=`${item.title}`)
 					.item__bottom
-						.item__name.title #{item.title}
+						.item__name #{item.title}
 						.item__price #{item.price}

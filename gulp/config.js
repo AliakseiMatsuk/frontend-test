@@ -19,7 +19,7 @@ module.exports = {
         css: './build/templates/_ares/css',
         img: './build/templates/_ares/images',
         fonts: './build/templates/_ares/fonts',
-        spriteImg: './source/images/img',
+        spriteImg: './source/images',
         spriteCss:'./source/style/common'
     },
     watch: {

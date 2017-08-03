@@ -1,12 +1,16 @@
 .cat-slider {
+    &:not(:last-child){
+        margin-bottom: 55px;
+    }
     &__title {
         @include subFont();
         @include rem(20);
         text-transform: uppercase;
         display: flex;
         align-items: center;
-        padding: 45px 0 45px;
+        padding: 32px 0 37px;
         &_left {
+            padding-left: 3px;
             &:after {
                 content: '';
                 display: inline-block;

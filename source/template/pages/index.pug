@@ -10,19 +10,26 @@ block content
 			.filters__list
 				+filters(filters)
 			button.btn.btn_color.filters__button see all products
-		.sorting
-			.sorting__title.title Sort by
-			.sorting__list
-				select.select
-					option.select__item lorem
-					option.select__item lorem1
-		.cat-slider
-			.cat-slider__title.cat-slider__title_left.title men
-			.cat-slider__slider
-				.slider
-					+item(itemsMen)
-		.cat-slider
-			.cat-slider__title.cat-slider__title_right.title women
-			.cat-slider__slider
-				.slider
-					+item(itemsWomen)
+		main.main
+			.sorting
+				.sorting__title.title Sort by
+				.sorting__list
+					select.select
+						option.select__item Price
+						option.select__item Name
+			.cat-slider
+				.cat-slider__title.cat-slider__title_left.title men
+				.slider-info.slider-info_right
+					.slider-count.slider__men-count 1
+					.slider__men-nav
+				.cat-slider__slider
+					.slider__men
+						+item(itemsMen)
+			.cat-slider
+				.cat-slider__title.cat-slider__title_right.title women
+				.slider-info.slider-info_left
+					.slider-count.slider__woman-count 1
+					.slider__woman-nav
+				.cat-slider__slider
+					.slider__woman
+						+item(itemsWomen)
